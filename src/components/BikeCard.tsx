@@ -1,5 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Heart, Eye, Clock } from 'lucide-react';
 import { Bike } from '@/types/bike';
 
 interface BikeCardProps {
@@ -8,6 +10,11 @@ interface BikeCardProps {
 }
 
 const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
+  const getRandomViews = () => Math.floor(Math.random() * 50) + 10;
+  const getRandomDaysAgo = () => Math.floor(Math.random() * 7) + 1;
+  const isPopular = Math.random() > 0.7;
+  const isRecommended = Math.random() > 0.6;
+
   return (
     <Card className="group overflow-hidden hover:shadow-hover transition-all duration-300 hover:scale-105 bg-card border-border">
       <div className="relative">
@@ -15,6 +22,29 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
         <div className="absolute top-4 left-4 z-10 bg-honda-red text-white px-3 py-1 rounded-lg font-bold text-sm shadow-lg">
           {bike.price}
         </div>
+
+        {/* Social Badges */}
+        <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
+          {isPopular && (
+            <Badge className="bg-orange-500 text-white text-xs">
+              🔥 Mais vendida
+            </Badge>
+          )}
+          {isRecommended && (
+            <Badge className="bg-honda-blue text-white text-xs">
+              👨‍💼 Recomendação do João
+            </Badge>
+          )}
+        </div>
+
+        {/* Heart/Save Button */}
+        <Button
+          variant="ghost"
+          size="icon"
+          className="absolute bottom-4 right-4 z-10 bg-white/80 hover:bg-white text-honda-red"
+        >
+          <Heart className="w-4 h-4" />
+        </Button>
         
         {/* Bike Image */}
         <div className="relative h-48 bg-gradient-to-br from-honda-blue/5 to-honda-red/5 flex items-center justify-center overflow-hidden">
@@ -49,6 +79,18 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
         <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
           {bike.description}
         </p>
+
+        {/* Social Stats */}
+        <div className="flex items-center gap-4 mb-4 text-xs text-muted-foreground">
+          <div className="flex items-center gap-1">
+            <Eye className="w-3 h-3" />
+            <span>{getRandomViews()} visualizações</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <Clock className="w-3 h-3" />
+            <span>Vendido há {getRandomDaysAgo()} dias</span>
+          </div>
+        </div>
         
         <div className="flex flex-col gap-3">
           <Button

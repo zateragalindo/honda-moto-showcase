@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import SellerProfile from '@/components/SellerProfile';
+import Stories from '@/components/Stories';
+import PostsFeed from '@/components/PostsFeed';
 import BikeGrid from '@/components/BikeGrid';
+import WorkGallery from '@/components/WorkGallery';
+import Testimonials from '@/components/Testimonials';
 import BikeModal from '@/components/BikeModal';
 import ConsorcioModal from '@/components/ConsorcioModal';
 import FinanciamentoModal from '@/components/FinanciamentoModal';
@@ -43,7 +48,12 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <Hero />
+      <SellerProfile />
+      <Stories />
+      <PostsFeed />
       <BikeGrid onBikeSelect={handleBikeSelect} />
+      <WorkGallery />
+      <Testimonials />
       <Stats />
       <Footer />
 

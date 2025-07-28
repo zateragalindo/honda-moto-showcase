@@ -7,7 +7,15 @@ export const sendWhatsAppMessage = (message: string) => {
 };
 
 export const formatBikeInterestMessage = (bikeName: string, price: string) => {
-  return `Olá! Tenho interesse na ${bikeName} por ${price}. Gostaria de mais informações.`;
+  return `Oi! É o João da Honda aqui! 👋
+
+Vi que você tem interesse na ${bikeName} por ${price}. É uma excelente escolha! 
+
+Já vendi várias dessa semana e os clientes estão super satisfeitos.
+
+Posso te explicar todas as vantagens e condições especiais que tenho disponível?
+
+Vamos conversar? 😊`;
 };
 
 export const formatConsorcioMessage = (bikeName: string, price: string, parcelas: string) => {
