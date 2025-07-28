@@ -61,7 +61,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'honda-red': 'hsl(var(--honda-red))',
+				'honda-dark-red': 'hsl(var(--honda-dark-red))',
+				'honda-blue': 'hsl(var(--honda-blue))',
+				'honda-dark-blue': 'hsl(var(--honda-dark-blue))',
+				'whatsapp-green': 'hsl(var(--whatsapp-green))'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-category': 'var(--gradient-category)'
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
