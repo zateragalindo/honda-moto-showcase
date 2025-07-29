@@ -49,11 +49,11 @@ const Index = () => {
       <Header />
       <Hero />
       <SellerProfile />
-      <Stories />
-      <PostsFeed />
+      {/* <Stories />
+      <PostsFeed /> */}
       <BikeGrid onBikeSelect={handleBikeSelect} />
       <WorkGallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Stats />
       <Footer />
 

@@ -41,7 +41,12 @@ export const bikes: Bike[] = [
     price: 'R$ 16.440,00',
     priceNumber: 16440,
     category: 'street',
-    image: '/placeholder.svg',
+    image: '/public/imgs/street/cg160start/01.webp',
+    colors: [
+      { name: 'Vermelha', image: '/public/imgs/street/cg160start/02.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/public/imgs/street/cg160start/03.webp', colorCode: '#1f2937' },
+      { name: 'Prata', image: '/public/imgs/street/cg160start/01.webp', colorCode: '#94a3b8' }
+    ],
     description: 'A CG 160 Start combina economia, durabilidade e performance para o seu dia a dia.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, OHC',
@@ -58,7 +63,12 @@ export const bikes: Bike[] = [
     price: 'R$ 17.990,00',
     priceNumber: 17990,
     category: 'street',
-    image: '/placeholder.svg',
+    image: '/public/imgs/street/cg160fan/01.png',
+    colors: [
+      { name: 'azul', image: '/public/imgs/street/cg160fan/01.png', colorCode: '#0048adff' },
+      { name: 'Vermelha', image: '/public/imgs/street/cg160start/02.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/public/imgs/street/cg160start/03.webp', colorCode: '#1f2937' }
+    ],
     description: 'A CG 160 Fan oferece mais conforto e tecnologia para o seu trajeto diário.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, OHC',
@@ -228,7 +238,12 @@ export const bikes: Bike[] = [
     price: 'R$ 43.040,00',
     priceNumber: 43040,
     category: 'street',
-    image: '/placeholder.svg',
+    image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png',
+    colors: [
+      { name: 'Vermelha', image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/lovable-uploads/1568b85e-2264-48b3-92e5-4b0b1df36b74.png', colorCode: '#1f2937' },
+      { name: 'Prata', image: '/lovable-uploads/a941bebe-7d66-45d4-aabf-9738b5f2af80.png', colorCode: '#94a3b8' }
+    ],
     description: 'A naked de média cilindrada mais desejada.',
     specs: {
       motor: 'Bicilíndrico, 4 tempos, DOHC',
@@ -245,7 +260,12 @@ export const bikes: Bike[] = [
     price: 'R$ 52.590,00',
     priceNumber: 52590,
     category: 'street',
-    image: '/placeholder.svg',
+    image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png',
+    colors: [
+      { name: 'Vermelha', image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/lovable-uploads/1568b85e-2264-48b3-92e5-4b0b1df36b74.png', colorCode: '#1f2937' },
+      { name: 'Prata', image: '/lovable-uploads/a941bebe-7d66-45d4-aabf-9738b5f2af80.png', colorCode: '#94a3b8' }
+    ],
     description: 'Naked de alta cilindrada com performance e tecnologia.',
     specs: {
       motor: '4 cilindros, 4 tempos, DOHC',
@@ -298,7 +318,12 @@ export const bikes: Bike[] = [
     price: 'R$ 55.360,00',
     priceNumber: 55360,
     category: 'sport',
-    image: '/placeholder.svg',
+    image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png',
+    colors: [
+      { name: 'Vermelha', image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/lovable-uploads/1568b85e-2264-48b3-92e5-4b0b1df36b74.png', colorCode: '#1f2937' },
+      { name: 'Prata', image: '/lovable-uploads/a941bebe-7d66-45d4-aabf-9738b5f2af80.png', colorCode: '#94a3b8' }
+    ],
     description: 'Supersportiva com design agressivo e performance superior.',
     specs: {
       motor: '4 cilindros, 4 tempos, DOHC',
