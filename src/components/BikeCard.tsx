@@ -13,7 +13,6 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
   const getRandomViews = () => Math.floor(Math.random() * 50) + 10;
   const getRandomDaysAgo = () => Math.floor(Math.random() * 7) + 1;
   const isPopular = Math.random() > 0.7;
-  const isRecommended = Math.random() > 0.6;
 
   return (
     <Card className="group overflow-hidden hover:shadow-hover transition-all duration-300 hover:scale-105 bg-card border-border">
@@ -21,20 +20,6 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
         {/* Price Tag */}
         <div className="absolute top-4 left-4 z-10 bg-honda-red text-white px-3 py-1 rounded-lg font-bold text-sm shadow-lg">
           {bike.price}
-        </div>
-
-        {/* Social Badges */}
-        <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
-          {isPopular && (
-            <Badge className="bg-orange-500 text-white text-xs">
-              🔥 Mais vendida
-            </Badge>
-          )}
-          {isRecommended && (
-            <Badge className="bg-honda-blue text-white text-xs">
-              👨‍💼 Recomendação do João
-            </Badge>
-          )}
         </div>
 
         {/* Heart/Save Button */}
@@ -45,7 +30,7 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
         >
           <Heart className="w-4 h-4" />
         </Button>
-        
+
         {/* Bike Image */}
         <div className="relative h-48 bg-gradient-to-br from-honda-blue/5 to-honda-red/5 flex items-center justify-center overflow-hidden">
           <img
@@ -57,7 +42,7 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
               target.src = 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop';
             }}
           />
-          
+
           {/* Overlay on hover */}
           <div className="absolute inset-0 bg-gradient-category opacity-0 group-hover:opacity-80 transition-opacity duration-300 flex items-center justify-center">
             <Button
@@ -70,12 +55,12 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
           </div>
         </div>
       </div>
-      
+
       <CardContent className="p-6">
         <h3 className="text-xl font-bold mb-2 text-foreground group-hover:text-honda-red transition-colors">
           {bike.name}
         </h3>
-        
+
         <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
           {bike.description}
         </p>
@@ -91,7 +76,7 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
             <span>Vendido há {getRandomDaysAgo()} dias</span>
           </div>
         </div>
-        
+
         <div className="flex flex-col gap-3">
           <Button
             onClick={() => onInterestClick(bike)}
@@ -99,7 +84,7 @@ const BikeCard = ({ bike, onInterestClick }: BikeCardProps) => {
           >
             Tenho Interesse
           </Button>
-          
+
           <p className="text-xs text-muted-foreground text-center">
             *Preço público sugerido. Frete não incluso.
           </p>
