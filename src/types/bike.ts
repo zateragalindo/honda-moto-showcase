@@ -9,7 +9,7 @@ export interface Bike {
   name: string;
   price: string;
   priceNumber: number;
-  category: 'street' | 'sport' | 'adventure' | 'touring' | 'offroad';
+  category: 'street' | 'sport' | 'adventure' | 'touring' | 'offroad' | 'motoresmaquinas';
   image: string;
   colors?: ColorOption[];
   description: string;

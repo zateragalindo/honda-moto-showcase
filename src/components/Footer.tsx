@@ -6,9 +6,9 @@ const Footer = () => {
     sendWhatsAppMessage('Olá! Gostaria de mais informações sobre a Divino Honda.');
   };
 
-  const handleSocialClick = (platform: string) => {
+  const handleSocialClick = (platform: string, url: string) => {
     // Placeholder for social media links
-    console.log(`Redirect to ${platform}`);
+    window.open(url, '_blank');
   };
 
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
                 DIVINO HONDA
               </h3>
               <p className="text-white/80 text-sm leading-relaxed">
-                Sua concessionária Honda de confiança. Oferecemos os melhores modelos, 
+                Sua concessionária Honda de confiança. Oferecemos os melhores modelos,
                 financiamento facilitado e atendimento especializado para realizar o seu sonho.
               </p>
             </div>
@@ -40,14 +40,14 @@ const Footer = () => {
                   <MessageCircle className="w-5 h-5" />
                 </button>
                 <button
-                  onClick={() => handleSocialClick('Facebook')}
+                  onClick={() => handleSocialClick('Facebook', 'https://www.facebook.com/divino.ferreira.925')}
                   className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-colors"
                   title="Facebook"
                 >
                   <Facebook className="w-5 h-5" />
                 </button>
                 <button
-                  onClick={() => handleSocialClick('Instagram')}
+                  onClick={() => handleSocialClick('Instagram', 'https://www.instagram.com/divino.ferreira.925')}
                   className="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 rounded-full flex items-center justify-center transition-colors"
                   title="Instagram"
                 >
@@ -60,13 +60,15 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold mb-4">Informações de Contato</h4>
-            
+
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-honda-red mt-1 flex-shrink-0" />
               <div>
                 <p className="font-medium">Endereço</p>
                 <p className="text-white/80 text-sm">
-                  Consulte nossa localização
+                  <a href="https://www.google.com/maps/place/Honda/@-18.8696959,-48.8780977,17z/data=!3m1!4b1!4m6!3m5!1s0x94a3f1ed84d6460b:0x378a6d9da8a6c28b!8m2!3d-18.8696959!4d-48.8755228!16s%2Fg%2F11kk8rdrct?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D">
+                    R. Rui Barbosa, 272 - Centro, Monte Alegre de Minas - MG, 38475-000
+                  </a>
                 </p>
               </div>
             </div>
@@ -75,7 +77,7 @@ const Footer = () => {
               <Phone className="w-5 h-5 text-honda-red flex-shrink-0" />
               <div>
                 <p className="font-medium">Telefone</p>
-                <a 
+                <a
                   href="tel:+5531996853838"
                   className="text-white/80 text-sm hover:text-white transition-colors"
                 >
@@ -88,7 +90,7 @@ const Footer = () => {
               <Mail className="w-5 h-5 text-honda-red flex-shrink-0" />
               <div>
                 <p className="font-medium">E-mail</p>
-                <a 
+                <a
                   href="mailto:contato@divinohonda.com.br"
                   className="text-white/80 text-sm hover:text-white transition-colors"
                 >
@@ -101,7 +103,7 @@ const Footer = () => {
           {/* Business Hours */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold mb-4">Horário de Funcionamento</h4>
-            
+
             <div className="flex items-start gap-3">
               <Clock className="w-5 h-5 text-honda-red mt-1 flex-shrink-0" />
               <div className="space-y-2">
@@ -124,7 +126,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
-            
+
             <div className="space-y-2">
               <button
                 onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}
@@ -137,18 +139,6 @@ const Footer = () => {
                 className="block text-white/80 hover:text-white transition-colors text-sm"
               >
                 Nosso Estoque
-              </button>
-              <button
-                onClick={() => document.getElementById('stats')?.scrollIntoView({ behavior: 'smooth' })}
-                className="block text-white/80 hover:text-white transition-colors text-sm"
-              >
-                Sobre Nós
-              </button>
-              <button
-                onClick={handleWhatsAppClick}
-                className="block text-white/80 hover:text-white transition-colors text-sm"
-              >
-                Fale Conosco
               </button>
             </div>
 
@@ -172,13 +162,13 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
               <p className="text-white/80 text-sm">
-                © 2025 Divino Honda. Todos os direitos reservados.
+                © 2025 Ruset Marketing Digital. Todos os direitos reservados.
               </p>
-              <p className="text-white/60 text-xs mt-1">
+              {/* <p className="text-white/60 text-xs mt-1">
                 Concessionária autorizada Honda | CNPJ: XX.XXX.XXX/XXXX-XX
-              </p>
+              </p> */}
             </div>
-            
+
             <div className="text-center md:text-right">
               <p className="text-white/60 text-xs">
                 Desenvolvido com ❤️ para oferecer a melhor experiência Honda

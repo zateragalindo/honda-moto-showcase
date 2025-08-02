@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Bike, Mountain, MapPin, TreePine, Gauge } from 'lucide-react';
+import { Bike, Mountain, MapPin, TreePine, Gauge, Wrench } from 'lucide-react';
 import { categories } from '@/data/bikes';
 import { Category } from '@/types/bike';
 
@@ -13,7 +13,8 @@ const iconMap = {
   Gauge,
   Mountain,
   MapPin,
-  TreePine
+  TreePine,
+  Wrench
 };
 
 const Categories = ({ selectedCategory, onCategorySelect }: CategoriesProps) => {
@@ -33,15 +34,15 @@ const Categories = ({ selectedCategory, onCategorySelect }: CategoriesProps) => 
           {categories.map((category) => {
             const IconComponent = iconMap[category.icon as keyof typeof iconMap];
             const isSelected = selectedCategory === category.id;
-            
+
             return (
               <div
                 key={category.id}
                 onClick={() => onCategorySelect(category.id)}
                 className={`
                   group cursor-pointer p-6 rounded-xl transition-all duration-300 hover:scale-105
-                  ${isSelected 
-                    ? 'bg-gradient-category text-white shadow-hover' 
+                  ${isSelected
+                    ? 'bg-gradient-category text-white shadow-hover'
                     : 'bg-card hover:bg-gradient-category hover:text-white shadow-card'
                   }
                 `}
@@ -49,34 +50,34 @@ const Categories = ({ selectedCategory, onCategorySelect }: CategoriesProps) => 
                 <div className="text-center">
                   <div className={`
                     inline-flex items-center justify-center w-16 h-16 rounded-full mb-4 transition-colors
-                    ${isSelected 
-                      ? 'bg-white/20' 
+                    ${isSelected
+                      ? 'bg-white/20'
                       : 'bg-honda-red/10 group-hover:bg-white/20'
                     }
                   `}>
                     <IconComponent className={`
                       w-8 h-8 transition-colors
-                      ${isSelected 
-                        ? 'text-white' 
+                      ${isSelected
+                        ? 'text-white'
                         : 'text-honda-red group-hover:text-white'
                       }
                     `} />
                   </div>
-                  
+
                   <h3 className={`
                     text-xl font-bold mb-2 transition-colors
-                    ${isSelected 
-                      ? 'text-white' 
+                    ${isSelected
+                      ? 'text-white'
                       : 'text-foreground group-hover:text-white'
                     }
                   `}>
                     {category.name}
                   </h3>
-                  
+
                   <p className={`
                     text-sm transition-colors
-                    ${isSelected 
-                      ? 'text-white/80' 
+                    ${isSelected
+                      ? 'text-white/80'
                       : 'text-muted-foreground group-hover:text-white/80'
                     }
                   `}>

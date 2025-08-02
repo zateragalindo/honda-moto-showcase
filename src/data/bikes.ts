@@ -30,10 +30,36 @@ export const categories: Category[] = [
     name: 'Off Road',
     icon: 'TreePine',
     description: 'Para trilhas e terrenos extremos'
+  },
+  {
+    id: 'motoresmaquinas',
+    name: 'Motores e Maquinas',
+    icon: 'Wrench',
+    description: 'Para trilhas e terrenos extremos'
   }
 ];
 
 export const bikes: Bike[] = [
+
+  // Moteres e Maquinas Category
+  {
+    id: 'memessencial-01',
+    name: 'M&M ESSENCIAL',
+    price: 'R$ 1.850,00',
+    priceNumber: 1850,
+    category: 'motoresmaquinas',
+    image: '/public/imgs/motoresmaquinas/memessencial/01.png',
+    description: '',
+    specs: {
+      motor: '',
+      cilindrada: '',
+      potencia: '',
+      transmissao: '',
+      combustivel: '',
+      partida: ''
+    }
+  },
+
   // Street Category
   {
     id: 'cg-160-start',
@@ -431,11 +457,10 @@ export const bikes: Bike[] = [
     price: 'R$ 55.360,00',
     priceNumber: 55360,
     category: 'sport',
-    image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png',
+    image: '/public/imgs/sport/cbr650r/01.png',
     colors: [
-      { name: 'Vermelha', image: '/lovable-uploads/7889673e-35bf-42d0-8b30-6497966053e9.png', colorCode: '#dc2626' },
-      { name: 'Preta', image: '/lovable-uploads/1568b85e-2264-48b3-92e5-4b0b1df36b74.png', colorCode: '#1f2937' },
-      { name: 'Prata', image: '/lovable-uploads/a941bebe-7d66-45d4-aabf-9738b5f2af80.png', colorCode: '#94a3b8' }
+      { name: 'Vermelha', image: '/public/imgs/sport/cbr650r/01.png', colorCode: '#dc2626' },
+      { name: 'Branco', image: '/public/imgs/sport/cbr650r/01.png', colorCode: '#d4d4d4ff' },
     ],
     description: 'Supersportiva com design agressivo e performance superior.',
     specs: {
@@ -453,7 +478,11 @@ export const bikes: Bike[] = [
     price: 'R$ 189.174,00',
     priceNumber: 189174,
     category: 'sport',
-    image: '/placeholder.svg',
+    image: '/public/imgs/sport/cbr1000rr-rfirebladesp/01.webp',
+    colors: [
+      { name: 'Vermelha', image: '/public/imgs/sport/cbr1000rr-rfirebladesp/01.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/public/imgs/sport/cbr1000rr-rfirebladesp/02.webp', colorCode: '#1f2937' },
+    ],
     description: 'A supersportiva mais avançada da Honda, inspirada na MotoGP.',
     specs: {
       motor: '4 cilindros, 4 tempos, DOHC',
@@ -804,7 +833,11 @@ export const bikes: Bike[] = [
     price: 'R$ 304.450,00',
     priceNumber: 304450,
     category: 'touring',
-    image: '/placeholder.svg',
+    image: '/public/imgs/touring/gl1800goldwingtour/01.webp',
+    colors: [
+      { name: 'Branco', image: '/public/imgs/touring/gl1800goldwingtour/01.webp', colorCode: '#ffffffff' },
+      { name: 'Cinza', image: '/public/imgs/touring/gl1800goldwingtour/02.webp', colorCode: '#494949ff' },
+    ],
     description: 'A touring de luxo mais avançada do mundo.',
     specs: {
       motor: '6 cilindros, 4 tempos, OHC',
@@ -823,7 +856,7 @@ export const bikes: Bike[] = [
     price: 'R$ 23.390,00',
     priceNumber: 23390,
     category: 'offroad',
-    image: '/placeholder.svg',
+    image: '/public/imgs/offroad/crf250f/01.webp',
     description: 'Off-road de entrada para trilhas e diversão.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -836,11 +869,28 @@ export const bikes: Bike[] = [
   },
   {
     id: 'linha-crf-250',
-    name: 'Linha CRF 250',
+    name: 'Linha CRF 250 R',
     price: 'R$ 71.163,00',
     priceNumber: 71163,
     category: 'offroad',
-    image: '/placeholder.svg',
+    image: '/public/imgs/offroad/linhacrf250r/01.webp',
+    description: 'Off-road de competição com tecnologia de ponta.',
+    specs: {
+      motor: 'Monocilíndrico, 4 tempos, DOHC',
+      cilindrada: '249,4 cm³',
+      potencia: '40 cv @ 12.000 rpm',
+      transmissao: '5 velocidades',
+      combustivel: 'Gasolina',
+      partida: 'Elétrica'
+    }
+  },
+  {
+    id: 'linha-crf-2502',
+    name: 'Linha CRF 250 RX',
+    price: 'R$ 73.998,00',
+    priceNumber: 73998,
+    category: 'offroad',
+    image: '/public/imgs/offroad/linhacrf250rx/01.webp',
     description: 'Off-road de competição com tecnologia de ponta.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -857,7 +907,24 @@ export const bikes: Bike[] = [
     price: 'R$ 74.878,00',
     priceNumber: 74878,
     category: 'offroad',
-    image: '/placeholder.svg',
+    image: '/public/imgs/offroad/linhacrf450r/01.webp',
+    description: 'Off-road de alta performance para profissionais.',
+    specs: {
+      motor: 'Monocilíndrico, 4 tempos, DOHC',
+      cilindrada: '449,7 cm³',
+      potencia: '53 cv @ 9.000 rpm',
+      transmissao: '5 velocidades',
+      combustivel: 'Gasolina',
+      partida: 'Elétrica'
+    }
+  },
+  {
+    id: 'linha-crf-4502',
+    name: 'Linha CRF 450',
+    price: 'R$ 77.126,00',
+    priceNumber: 77126,
+    category: 'offroad',
+    image: '/public/imgs/offroad/linhacrf450rx/01.webp',
     description: 'Off-road de alta performance para profissionais.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -874,7 +941,7 @@ export const bikes: Bike[] = [
     price: 'R$ 53.550,00',
     priceNumber: 53550,
     category: 'offroad',
-    image: '/placeholder.svg',
+    image: '/public/imgs/offroad/trx420fourtrax/01.png',
     description: 'Quadriciclo 4x4 para trabalho e lazer.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, OHV',
