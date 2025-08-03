@@ -30,35 +30,11 @@ export const categories: Category[] = [
     name: 'Off Road',
     icon: 'TreePine',
     description: 'Para trilhas e terrenos extremos'
-  },
-  {
-    id: 'motoresmaquinas',
-    name: 'Motores e Maquinas',
-    icon: 'Wrench',
-    description: 'Para trilhas e terrenos extremos'
   }
 ];
 
 export const bikes: Bike[] = [
 
-  // Moteres e Maquinas Category
-  {
-    id: 'memessencial-01',
-    name: 'M&M ESSENCIAL',
-    price: 'R$ 1.850,00',
-    priceNumber: 1850,
-    category: 'motoresmaquinas',
-    image: '/public/imgs/motoresmaquinas/memessencial/01.png',
-    description: '',
-    specs: {
-      motor: '',
-      cilindrada: '',
-      potencia: '',
-      transmissao: '',
-      combustivel: '',
-      partida: ''
-    }
-  },
 
   // Street Category
   {

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Bike, Mountain, MapPin, TreePine, Gauge, Wrench } from 'lucide-react';
+import { Bike, Mountain, MapPin, TreePine, Gauge } from 'lucide-react';
 import { categories } from '@/data/bikes';
 import { Category } from '@/types/bike';
 
@@ -14,7 +14,6 @@ const iconMap = {
   Mountain,
   MapPin,
   TreePine,
-  Wrench
 };
 
 const Categories = ({ selectedCategory, onCategorySelect }: CategoriesProps) => {
