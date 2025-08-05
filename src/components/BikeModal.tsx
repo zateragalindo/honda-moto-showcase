@@ -56,7 +56,7 @@ const BikeModal = ({ bike, isOpen, onClose, onConsorcioClick, onFinanciamentoCli
             {bike.name}
             <button
               onClick={onClose}
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-muted-foreground hover:text-honda-red transition-colors"
             >
               <X className="w-6 h-6" />
             </button>
@@ -66,7 +66,7 @@ const BikeModal = ({ bike, isOpen, onClose, onConsorcioClick, onFinanciamentoCli
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Imagem da Moto */}
           <div className="space-y-4">
-            <div className="relative h-64 lg:h-80 bg-gradient-to-br from-honda-blue/5 to-honda-red/5 rounded-lg overflow-hidden">
+            <div className="relative h-44 lg:h-80 bg-gradient-to-br from-honda-blue/5 to-honda-red/5 rounded-lg overflow-hidden">
               {isImageLoading && (
                 <div className="absolute inset-0 bg-background/80 flex items-center justify-center z-10">
                   <div className="w-8 h-8 border-2 border-honda-red border-t-transparent rounded-full animate-spin"></div>
@@ -75,9 +75,8 @@ const BikeModal = ({ bike, isOpen, onClose, onConsorcioClick, onFinanciamentoCli
               <img
                 src={currentImage}
                 alt={`${bike.name}${selectedColor ? ` - ${selectedColor.name}` : ''}`}
-                className={`w-full h-full object-cover transition-opacity duration-300 ${
-                  isImageLoading ? 'opacity-50' : 'opacity-100'
-                }`}
+                className={`w-full h-full object-cover transition-opacity duration-300 ${isImageLoading ? 'opacity-50' : 'opacity-100'
+                  }`}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.src = 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop';
@@ -97,8 +96,8 @@ const BikeModal = ({ bike, isOpen, onClose, onConsorcioClick, onFinanciamentoCli
                       onClick={() => handleColorChange(color)}
                       className={`
                         relative w-12 h-12 rounded-full border-3 transition-all duration-300 hover:scale-105 group
-                        ${selectedColor?.name === color.name 
-                          ? 'border-honda-red scale-110 shadow-lg shadow-honda-red/25' 
+                        ${selectedColor?.name === color.name
+                          ? 'border-honda-red scale-110 shadow-lg shadow-honda-red/25'
                           : 'border-border hover:border-honda-red/50'
                         }
                       `}
@@ -147,7 +146,7 @@ const BikeModal = ({ bike, isOpen, onClose, onConsorcioClick, onFinanciamentoCli
                 <FileText className="w-4 h-4" />
                 Consórcio
               </Button>
-              
+
               <Button
                 onClick={() => onFinanciamentoClick(bike)}
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground flex items-center justify-center gap-2"
@@ -155,7 +154,7 @@ const BikeModal = ({ bike, isOpen, onClose, onConsorcioClick, onFinanciamentoCli
                 <CreditCard className="w-4 h-4" />
                 Financiamento
               </Button>
-              
+
               <Button
                 onClick={handleWhatsAppClick}
                 className="bg-whatsapp-green hover:bg-whatsapp-green/90 text-white flex items-center justify-center gap-2"

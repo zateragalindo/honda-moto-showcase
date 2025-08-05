@@ -12,7 +12,7 @@ const SellerProfile = () => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-br from-background to-muted/30">
+    <section className="py-16 bg-gradient-to-br from-background to-muted/30 mt-10">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-honda-red to-honda-blue bg-clip-text text-transparent">
@@ -46,11 +46,10 @@ const SellerProfile = () => {
                   {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
-                      className={`w-5 h-5 ${
-                        i < Math.floor(seller.rating)
+                      className={`w-5 h-5 ${i < Math.floor(seller.rating)
                           ? 'text-yellow-400 fill-current'
                           : 'text-gray-300'
-                      }`}
+                        }`}
                     />
                   ))}
                   <span className="ml-2 font-bold text-lg">{seller.rating}</span>

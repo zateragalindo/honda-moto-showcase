@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
 
@@ -20,6 +20,8 @@ All colors MUST be HSL.
     /* Honda colors */
     --honda-red: 0 73% 58%;
     --honda-dark-red: 0 76% 42%;
+    --honda-full-red: 0, 100%, 29%;
+
     --honda-blue: 210 29% 24%;
     --honda-dark-blue: 210 31% 20%;
     --whatsapp-green: 142 76% 36%;
@@ -44,9 +46,21 @@ All colors MUST be HSL.
     --ring: var(--honda-red);
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--honda-red)), hsl(var(--honda-dark-blue)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--honda-red)), hsl(var(--honda-dark-red)));
-    --gradient-category: linear-gradient(120deg, hsl(var(--honda-blue) / 0.8), hsl(var(--honda-red) / 0.8));
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(var(--honda-red)),
+      hsl(var(--honda-dark-blue))
+    );
+    --gradient-card: linear-gradient(
+      145deg,
+      hsl(var(--honda-red)),
+      hsl(var(--honda-dark-red))
+    );
+    --gradient-category: linear-gradient(
+      120deg,
+      hsl(0, 93%, 37%),
+      hsl(0, 92%, 42%)
+    );
 
     /* Shadows */
     --shadow-card: 0 10px 25px -5px hsl(var(--honda-red) / 0.1);

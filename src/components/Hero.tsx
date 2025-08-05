@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="h-[40vh] w-full flex items-center justify-center bg-gradient-hero relative overflow-hidden">
+    <section id="home" className="h-[100vh] w-full flex items-center justify-center bg-gradient-hero relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-gradient-to-br from-honda-red/10 to-honda-blue/10" />

@@ -2,6 +2,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, User, Bike } from 'lucide-react';
 import { workGallery } from '@/data/seller';
+import { sendWhatsAppMessage } from '@/utils/whatsapp';
+
 
 const WorkGallery = () => {
   const formatDate = (date: Date) => {
@@ -10,6 +12,10 @@ const WorkGallery = () => {
       month: 'short',
       year: 'numeric'
     }).format(date);
+  };
+
+  const handleWhatsAppClick = () => {
+    sendWhatsAppMessage('Olá! Gostaria de mais informações sobre a Divino Honda.');
   };
 
   return (
@@ -29,7 +35,7 @@ const WorkGallery = () => {
                 <img
                   src={item.image}
                   alt={`Entrega ${item.bikeModel} para ${item.client}`}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 right-4 text-white">
@@ -38,19 +44,19 @@ const WorkGallery = () => {
                   </div>
                 </div>
               </div>
-              
+
               <CardContent className="p-4">
                 <div className="space-y-2">
                   <div className="flex items-center gap-2 text-sm">
                     <User className="w-4 h-4 text-honda-blue" />
                     <span className="font-medium">{item.client}</span>
                   </div>
-                  
+
                   <div className="flex items-center gap-2 text-sm">
                     <Bike className="w-4 h-4 text-honda-red" />
                     <span className="text-muted-foreground">{item.bikeModel}</span>
                   </div>
-                  
+
                   <div className="flex items-center gap-2 text-sm">
                     <Calendar className="w-4 h-4 text-muted-foreground" />
                     <span className="text-muted-foreground">{formatDate(item.date)}</span>
@@ -72,7 +78,7 @@ const WorkGallery = () => {
               <p className="text-muted-foreground mb-4">
                 Vamos juntos encontrar a Honda perfeita para você!
               </p>
-              <Button className="bg-honda-red hover:bg-honda-dark-red">
+              <Button onClick={handleWhatsAppClick} className="bg-honda-red hover:bg-honda-dark-red">
                 Começar Minha Jornada
               </Button>
             </CardContent>

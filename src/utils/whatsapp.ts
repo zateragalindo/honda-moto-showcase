@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '5531996853838';
+const WHATSAPP_NUMBER = '5534996360131';
 
 export const sendWhatsAppMessage = (message: string) => {
   const encodedMessage = encodeURIComponent(message);
@@ -9,7 +9,7 @@ export const sendWhatsAppMessage = (message: string) => {
 export const formatBikeInterestMessage = (bikeName: string, price: string) => {
   return `Oi! É o João da Honda aqui! 👋
 
-Vi que você tem interesse na ${bikeName} por ${price}. É uma excelente escolha! 
+Vi que você tem interesse na ${bikeName} por ${price}. É uma excelente escolha!
 
 Já vendi várias dessa semana e os clientes estão super satisfeitos.
 

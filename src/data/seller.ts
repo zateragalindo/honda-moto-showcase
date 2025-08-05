@@ -23,15 +23,15 @@ export const seller: Seller = {
 export const workGallery: WorkGallery[] = [
   {
     id: '1',
-    image: '/vendidos/01.png',
-    client: 'Suzana',
-    bikeModel: 'Honda Biz',
+    image: '/vendidos/01.jpg',
+    client: 'Kaic',
+    bikeModel: 'Honda CG 160',
     description: 'Obrigado pela preferência você merece essa conquista em vida',
     date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000)
   },
   {
     id: '2',
-    image: '/vendidos/02.png',
+    image: '/vendidos/02.jpg',
     client: 'Cardoso',
     bikeModel: 'Honda CG 160 Fan',
     description: 'Mais um sonho realizado!',
@@ -39,7 +39,7 @@ export const workGallery: WorkGallery[] = [
   },
   {
     id: '3',
-    image: '/vendidos/03.png',
+    image: '/vendidos/03.jpg',
     client: '',
     bikeModel: 'Honda Biz',
     description: 'Economia e confiabilidade em uma só moto!',
@@ -47,7 +47,7 @@ export const workGallery: WorkGallery[] = [
   },
   {
     id: '4',
-    image: '/vendidos/04.png',
+    image: '/vendidos/04.jpg',
     client: 'Tiago',
     bikeModel: 'Honda XRE',
     description: 'Perfeita para o dia a dia!',
