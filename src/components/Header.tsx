@@ -26,7 +26,6 @@ const Header = () => {
           <div
             className="flex items-center cursor-pointer"
             onClick={() => scrollToSection('home')}
-            id='home'
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +98,7 @@ const Header = () => {
                 onClick={() => scrollToSection('home')}
                 className="block w-full text-left px-3 py-2 text-white hover:text-honda-red hover:bg-white/10 rounded transition-all duration-200"
               >
-                Home
+                Início
               </button>
               <button
                 onClick={() => scrollToSection('estoque')}

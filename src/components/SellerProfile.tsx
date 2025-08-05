@@ -12,7 +12,7 @@ const SellerProfile = () => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-br from-background to-muted/30 mt-10">
+    <section className="py-16 bg-gradient-to-br from-background to-muted/30 mt-10" id="home">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-honda-red to-honda-blue bg-clip-text text-transparent">
@@ -47,8 +47,8 @@ const SellerProfile = () => {
                     <Star
                       key={i}
                       className={`w-5 h-5 ${i < Math.floor(seller.rating)
-                          ? 'text-yellow-400 fill-current'
-                          : 'text-gray-300'
+                        ? 'text-yellow-400 fill-current'
+                        : 'text-gray-300'
                         }`}
                     />
                   ))}
