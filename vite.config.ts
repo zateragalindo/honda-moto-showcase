@@ -12,11 +12,16 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: undefined,
       }
     }
   },
-  base: './'
+  base: './',
+  // Adicione esta configuração para resolver problemas de módulos
+  optimizeDeps: {
+    include: ['react', 'react-dom']
+  }
 })
