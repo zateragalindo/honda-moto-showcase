@@ -44,7 +44,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection('home')}
+              onClick={() => scrollToSection('/')}
               className="text-black hover:text-honda-red transition-colors duration-200 font-medium"
             >
               Home
