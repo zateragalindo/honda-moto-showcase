@@ -26,6 +26,7 @@ const Header = () => {
           <div
             className="flex items-center cursor-pointer"
             onClick={() => scrollToSection('home')}
+            id='home'
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,10 +45,10 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection('/')}
+              onClick={() => scrollToSection('home')}
               className="text-black hover:text-honda-red transition-colors duration-200 font-medium"
             >
-              Home
+              Início
             </button>
             <button
               onClick={() => scrollToSection('estoque')}
