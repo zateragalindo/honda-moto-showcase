@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./fonte"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
   build: {
@@ -18,5 +18,5 @@ export default defineConfig({
       }
     }
   },
-  base: './' // Para compatibilidade com Cloudflare Pages
+  base: './'
 })
