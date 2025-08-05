@@ -3,7 +3,7 @@ import { Seller, WorkGallery } from '@/types/seller';
 export const seller: Seller = {
   id: '1',
   name: 'Divino Honda',
-  avatar: './public/perfil.jpg',
+  avatar: './perfil.jpg',
   position: 'Consultor de Vendas Honda',
   rating: 4.8,
   totalSales: 847,
@@ -23,7 +23,7 @@ export const seller: Seller = {
 export const workGallery: WorkGallery[] = [
   {
     id: '1',
-    image: './public/vendidos/01.png',
+    image: './vendidos/01.png',
     client: 'Suzana',
     bikeModel: 'Honda Biz',
     description: 'Obrigado pela preferência você merece essa conquista em vida',
@@ -31,7 +31,7 @@ export const workGallery: WorkGallery[] = [
   },
   {
     id: '2',
-    image: './public/vendidos/02.png',
+    image: './vendidos/02.png',
     client: 'Cardoso',
     bikeModel: 'Honda CG 160 Fan',
     description: 'Mais um sonho realizado!',
@@ -39,7 +39,7 @@ export const workGallery: WorkGallery[] = [
   },
   {
     id: '3',
-    image: './public/vendidos/03.png',
+    image: './vendidos/03.png',
     client: '',
     bikeModel: 'Honda Biz',
     description: 'Economia e confiabilidade em uma só moto!',
@@ -47,7 +47,7 @@ export const workGallery: WorkGallery[] = [
   },
   {
     id: '4',
-    image: './public/vendidos/04.png',
+    image: './vendidos/04.png',
     client: 'Tiago',
     bikeModel: 'Honda XRE',
     description: 'Perfeita para o dia a dia!',
