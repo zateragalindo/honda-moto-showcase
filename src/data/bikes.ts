@@ -43,11 +43,11 @@ export const bikes: Bike[] = [
     price: 'R$ 16.440,00',
     priceNumber: 16440,
     category: 'street',
-    image: './imgs/street/cg160start/01.webp',
+    image: '/imgs/street/cg160start/01.webp',
     colors: [
-      { name: 'Vermelha', image: './imgs/street/cg160start/02.webp', colorCode: '#dc2626' },
-      { name: 'Preta', image: './imgs/street/cg160start/03.webp', colorCode: '#1f2937' },
-      { name: 'Prata', image: './imgs/street/cg160start/01.webp', colorCode: '#94a3b8' }
+      { name: 'Vermelha', image: '/imgs/street/cg160start/02.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/imgs/street/cg160start/03.webp', colorCode: '#1f2937' },
+      { name: 'Prata', image: '/imgs/street/cg160start/01.webp', colorCode: '#94a3b8' }
     ],
     description: 'A CG 160 Start combina economia, durabilidade e performance para o seu dia a dia.',
     specs: {
@@ -65,11 +65,11 @@ export const bikes: Bike[] = [
     price: 'R$ 17.990,00',
     priceNumber: 17990,
     category: 'street',
-    image: './imgs/street/cg160fan/01.png',
+    image: '/imgs/street/cg160fan/01.png',
     colors: [
-      { name: 'azul', image: './imgs/street/cg160fan/01.png', colorCode: '#0048adff' },
-      { name: 'Vermelha', image: './imgs/street/cg160start/02.webp', colorCode: '#dc2626' },
-      { name: 'Preta', image: './imgs/street/cg160start/03.webp', colorCode: '#1f2937' }
+      { name: 'azul', image: '/imgs/street/cg160fan/01.png', colorCode: '#0048adff' },
+      { name: 'Vermelha', image: '/imgs/street/cg160start/02.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/imgs/street/cg160start/03.webp', colorCode: '#1f2937' }
     ],
     description: 'A CG 160 Fan oferece mais conforto e tecnologia para o seu trajeto diário.',
     specs: {
@@ -87,11 +87,11 @@ export const bikes: Bike[] = [
     price: 'R$ 19.520,00',
     priceNumber: 19520,
     category: 'street',
-    image: './imgs/street/cg160titan/01.webp',
+    image: '/imgs/street/cg160titan/01.webp',
     colors: [
-      { name: 'Laranja', image: './imgs/street/cg160titan/01.webp', colorCode: '#ee940dff' },
-      { name: 'Vermelha', image: './imgs/street/cg160titan/02.webp', colorCode: '#dc2626' },
-      { name: 'Preta', image: './imgs/street/cg160titan/03.webp', colorCode: '#1f2937' }
+      { name: 'Laranja', image: '/imgs/street/cg160titan/01.webp', colorCode: '#ee940dff' },
+      { name: 'Vermelha', image: '/imgs/street/cg160titan/02.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/imgs/street/cg160titan/03.webp', colorCode: '#1f2937' }
     ],
     description: 'A CG 160 Titan é sinônimo de resistência e performance superior.',
     specs: {
@@ -109,7 +109,7 @@ export const bikes: Bike[] = [
     price: 'R$ 17.430,00',
     priceNumber: 17430,
     category: 'street',
-    image: './imgs/street/cg160cargo/01.webp',
+    image: '/imgs/street/cg160cargo/01.webp',
     description: 'Desenvolvida especialmente para trabalho e transporte de cargas.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, OHC',
@@ -126,11 +126,11 @@ export const bikes: Bike[] = [
     price: 'R$ 10.080,00',
     priceNumber: 10080,
     category: 'street',
-    image: './imgs/street/pop110ies/01.webp',
+    image: '/imgs/street/pop110ies/01.webp',
     colors: [
-      { name: 'Branca', image: './imgs/street/pop110ies/01.webp', colorCode: '#ffffffff' },
-      { name: 'Vermelha', image: './imgs/street/pop110ies/02.webp', colorCode: '#dc2626' },
-      { name: 'Preta', image: './imgs/street/pop110ies/03.webp', colorCode: '#1f2937' }
+      { name: 'Branca', image: '/imgs/street/pop110ies/01.webp', colorCode: '#ffffffff' },
+      { name: 'Vermelha', image: '/imgs/street/pop110ies/02.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/imgs/street/pop110ies/03.webp', colorCode: '#1f2937' }
     ],
     description: 'Economia e praticidade para quem busca mobilidade urbana eficiente.',
     specs: {
@@ -148,11 +148,11 @@ export const bikes: Bike[] = [
     price: 'R$ 15.720,00',
     priceNumber: 15720,
     category: 'street',
-    image: './imgs/street/biz125ex/01.webp',
+    image: '/imgs/street/biz125ex/01.webp',
     colors: [
-      { name: 'Branco', image: './imgs/street/biz125ex/03.webp', colorCode: '#ffffffff' },
-      { name: 'Azul', image: './imgs/street/biz125ex/01.webp', colorCode: '#1b0bb3ff' },
-      { name: 'Vermelha', image: './imgs/street/biz125ex/02.webp', colorCode: '#dc2626' },
+      { name: 'Branco', image: '/imgs/street/biz125ex/03.webp', colorCode: '#ffffffff' },
+      { name: 'Azul', image: '/imgs/street/biz125ex/01.webp', colorCode: '#1b0bb3ff' },
+      { name: 'Vermelha', image: '/imgs/street/biz125ex/02.webp', colorCode: '#dc2626' },
     ],
     description: 'O scooter ideal para agilidade no trânsito urbano.',
     specs: {
@@ -170,11 +170,11 @@ export const bikes: Bike[] = [
     price: 'R$ 12.600,00',
     priceNumber: 12600,
     category: 'street',
-    image: './imgs/street/biz125es/01.webp',
+    image: '/imgs/street/biz125es/01.webp',
     colors: [
-      { name: 'Vermelho', image: './imgs/street/biz125es/01.webp', colorCode: '#b30b0bff' },
-      { name: 'Branco', image: './imgs/street/biz125es/02.webp', colorCode: '#ffffffff' },
-      { name: 'Preto', image: './imgs/street/biz125es/03.webp', colorCode: '#070707ff' }
+      { name: 'Vermelho', image: '/imgs/street/biz125es/01.webp', colorCode: '#b30b0bff' },
+      { name: 'Branco', image: '/imgs/street/biz125es/02.webp', colorCode: '#ffffffff' },
+      { name: 'Preto', image: '/imgs/street/biz125es/03.webp', colorCode: '#070707ff' }
     ],
     description: 'O scooter ideal para agilidade no trânsito urbano.',
     specs: {
@@ -192,11 +192,11 @@ export const bikes: Bike[] = [
     price: 'R$ 13.880,00',
     priceNumber: 13880,
     category: 'street',
-    image: './imgs/street/elite125/01.webp',
+    image: '/imgs/street/elite125/01.webp',
     colors: [
-      { name: 'Azul', image: './imgs/street/elite125/01.webp', colorCode: '#207b8bff' },
-      { name: 'Vermelho', image: './imgs/street/elite125/02.webp', colorCode: '#ff0000ff' },
-      { name: 'Prata', image: './imgs/street/elite125/03.webp', colorCode: '#a8abacff' }
+      { name: 'Azul', image: '/imgs/street/elite125/01.webp', colorCode: '#207b8bff' },
+      { name: 'Vermelho', image: '/imgs/street/elite125/02.webp', colorCode: '#ff0000ff' },
+      { name: 'Prata', image: '/imgs/street/elite125/03.webp', colorCode: '#a8abacff' }
     ],
     description: 'Scooter moderno com design sofisticado e tecnologia avançada.',
     specs: {
@@ -214,7 +214,7 @@ export const bikes: Bike[] = [
     price: 'R$ 20.234,00',
     priceNumber: 20234,
     category: 'street',
-    image: './imgs/street/pcxdlxabs/01.webp',
+    image: '/imgs/street/pcxdlxabs/01.webp',
     description: 'O scooter premium com tecnologia Honda SMART Key.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, eSP',
@@ -231,7 +231,7 @@ export const bikes: Bike[] = [
     price: 'R$ 19.773,00',
     priceNumber: 19773,
     category: 'street',
-    image: './imgs/street/pcxabs/01.webp',
+    image: '/imgs/street/pcxabs/01.webp',
     description: 'O scooter premium com tecnologia Honda SMART Key.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, eSP',
@@ -248,7 +248,7 @@ export const bikes: Bike[] = [
     price: 'R$ 17.976,00',
     priceNumber: 17976,
     category: 'street',
-    image: './imgs/street/pcxcbs/01.webp',
+    image: '/imgs/street/pcxcbs/01.webp',
     description: 'O scooter premium com tecnologia Honda SMART Key.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, eSP',
@@ -265,10 +265,10 @@ export const bikes: Bike[] = [
     price: 'R$ 24.534,00',
     priceNumber: 24534,
     category: 'street',
-    image: './imgs/street/hondaadv/01.webp',
+    image: '/imgs/street/hondaadv/01.webp',
     colors: [
-      { name: 'Vermelho', image: './imgs/street/hondaadv/01.webp', colorCode: '#ff0000ff' },
-      { name: 'Prata', image: './imgs/street/hondaadv/02.webp', colorCode: '#a3a8a8ff' },
+      { name: 'Vermelho', image: '/imgs/street/hondaadv/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Prata', image: '/imgs/street/hondaadv/02.webp', colorCode: '#a3a8a8ff' },
     ],
     description: 'Scooter adventure com design robusto e versatilidade.',
     specs: {
@@ -286,10 +286,10 @@ export const bikes: Bike[] = [
     price: 'R$ 93.500,00',
     priceNumber: 93500,
     category: 'street',
-    image: './imgs/street/xadv/01.webp',
+    image: '/imgs/street/xadv/01.webp',
     colors: [
-      { name: 'Cinza', image: './imgs/street/xadv/01.webp', colorCode: '#505050ff' },
-      { name: 'Azul', image: './imgs/street/xadv/02.webp', colorCode: '#8babacff' },
+      { name: 'Cinza', image: '/imgs/street/xadv/01.webp', colorCode: '#505050ff' },
+      { name: 'Azul', image: '/imgs/street/xadv/02.webp', colorCode: '#8babacff' },
     ],
     description: 'O maxi-scooter adventure mais avançado da Honda.',
     specs: {
@@ -307,10 +307,10 @@ export const bikes: Bike[] = [
     price: 'R$ 25.637,00',
     priceNumber: 25637,
     category: 'street',
-    image: './imgs/street/cb300ftwisterabs/01.webp',
+    image: '/imgs/street/cb300ftwisterabs/01.webp',
     colors: [
-      { name: 'Azul', image: './imgs/street/cb300ftwisterabs/01.webp', colorCode: '#0026ffff' },
-      { name: 'Vermelho', image: './imgs/street/cb300ftwisterabs/02.webp', colorCode: '#ff0000ff' },
+      { name: 'Azul', image: '/imgs/street/cb300ftwisterabs/01.webp', colorCode: '#0026ffff' },
+      { name: 'Vermelho', image: '/imgs/street/cb300ftwisterabs/02.webp', colorCode: '#ff0000ff' },
     ],
     description: 'Naked com design agressivo e performance equilibrada.',
     specs: {
@@ -328,10 +328,10 @@ export const bikes: Bike[] = [
     price: 'R$ 24.657,00',
     priceNumber: 24657,
     category: 'street',
-    image: './imgs/street/cb300ftwistercbs/01.webp',
+    image: '/imgs/street/cb300ftwistercbs/01.webp',
     colors: [
-      { name: 'Vermelho', image: './imgs/street/cb300ftwistercbs/01.webp', colorCode: '#ff0000ff' },
-      { name: 'Cinza', image: './imgs/street/cb300ftwistercbs/02.webp', colorCode: '#464646ff' },
+      { name: 'Vermelho', image: '/imgs/street/cb300ftwistercbs/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Cinza', image: '/imgs/street/cb300ftwistercbs/02.webp', colorCode: '#464646ff' },
     ],
     description: 'Naked com design agressivo e performance equilibrada.',
     specs: {
@@ -349,11 +349,11 @@ export const bikes: Bike[] = [
     price: 'R$ 43.040,00',
     priceNumber: 43040,
     category: 'street',
-    image: './imgs/street/hornet500/01.webp',
+    image: '/imgs/street/hornet500/01.webp',
     colors: [
-      { name: 'Vermelha', image: './imgs/street/hornet500/01.webp', colorCode: '#dc2626' },
-      { name: 'Branco', image: './imgs/street/hornet500/01.webp', colorCode: '#ffffffff' },
-      { name: 'Preto', image: './imgs/street/hornet500/01.webp', colorCode: '#000000ff' }
+      { name: 'Vermelha', image: '/imgs/street/hornet500/01.webp', colorCode: '#dc2626' },
+      { name: 'Branco', image: '/imgs/street/hornet500/01.webp', colorCode: '#ffffffff' },
+      { name: 'Preto', image: '/imgs/street/hornet500/01.webp', colorCode: '#000000ff' }
     ],
     description: 'A naked de média cilindrada mais desejada.',
     specs: {
@@ -371,11 +371,11 @@ export const bikes: Bike[] = [
     price: 'R$ 58.270,00',
     priceNumber: 58270,
     category: 'street',
-    image: './imgs/street/cb650reclutch/01.webp',
+    image: '/imgs/street/cb650reclutch/01.webp',
     colors: [
-      { name: 'Vermelha', image: './imgs/street/cb650reclutch/01.webp', colorCode: '#dc2626' },
-      { name: 'Azul', image: './imgs/street/cb650reclutch/02.webp', colorCode: '#032b63ff' },
-      { name: 'Cinza', image: './imgs/street/cb650reclutch/03.webp', colorCode: '#464646ff' }
+      { name: 'Vermelha', image: '/imgs/street/cb650reclutch/01.webp', colorCode: '#dc2626' },
+      { name: 'Azul', image: '/imgs/street/cb650reclutch/02.webp', colorCode: '#032b63ff' },
+      { name: 'Cinza', image: '/imgs/street/cb650reclutch/03.webp', colorCode: '#464646ff' }
     ],
     description: 'Naked de alta cilindrada com performance e tecnologia.',
     specs: {
@@ -393,10 +393,10 @@ export const bikes: Bike[] = [
     price: 'R$ 78.870,00',
     priceNumber: 78870,
     category: 'street',
-    image: './imgs/street/cb1000r/01.webp',
+    image: '/imgs/street/cb1000r/01.webp',
     colors: [
-      { name: 'Vermelha', image: './imgs/street/cb1000r/01.webp', colorCode: '#dc2626' },
-      { name: 'Preto', image: './imgs/street/cb1000r/02.webp', colorCode: '#050505ff' },
+      { name: 'Vermelha', image: '/imgs/street/cb1000r/01.webp', colorCode: '#dc2626' },
+      { name: 'Preto', image: '/imgs/street/cb1000r/02.webp', colorCode: '#050505ff' },
     ],
     description: 'Super naked com potência e tecnologia de ponta.',
     specs: {
@@ -414,7 +414,7 @@ export const bikes: Bike[] = [
     price: 'R$ 87.730,00',
     priceNumber: 87730,
     category: 'street',
-    image: './imgs/street/cb1000rblackedition/01.webp',
+    image: '/imgs/street/cb1000rblackedition/01.webp',
     description: 'Versão exclusiva da CB 1000R com acabamento premium.',
     specs: {
       motor: '4 cilindros, 4 tempos, DOHC',
@@ -433,10 +433,10 @@ export const bikes: Bike[] = [
     price: 'R$ 55.360,00',
     priceNumber: 55360,
     category: 'sport',
-    image: './imgs/sport/cbr650r/01.png',
+    image: '/imgs/sport/cbr650r/01.png',
     colors: [
-      { name: 'Vermelha', image: './imgs/sport/cbr650r/01.png', colorCode: '#dc2626' },
-      { name: 'Branco', image: './imgs/sport/cbr650r/01.png', colorCode: '#d4d4d4ff' },
+      { name: 'Vermelha', image: '/imgs/sport/cbr650r/01.png', colorCode: '#dc2626' },
+      { name: 'Branco', image: '/imgs/sport/cbr650r/01.png', colorCode: '#d4d4d4ff' },
     ],
     description: 'Supersportiva com design agressivo e performance superior.',
     specs: {
@@ -454,10 +454,10 @@ export const bikes: Bike[] = [
     price: 'R$ 189.174,00',
     priceNumber: 189174,
     category: 'sport',
-    image: './imgs/sport/cbr1000rr-rfirebladesp/01.webp',
+    image: '/imgs/sport/cbr1000rr-rfirebladesp/01.webp',
     colors: [
-      { name: 'Vermelha', image: './imgs/sport/cbr1000rr-rfirebladesp/01.webp', colorCode: '#dc2626' },
-      { name: 'Preta', image: './imgs/sport/cbr1000rr-rfirebladesp/02.webp', colorCode: '#1f2937' },
+      { name: 'Vermelha', image: '/imgs/sport/cbr1000rr-rfirebladesp/01.webp', colorCode: '#dc2626' },
+      { name: 'Preta', image: '/imgs/sport/cbr1000rr-rfirebladesp/02.webp', colorCode: '#1f2937' },
     ],
     description: 'A supersportiva mais avançada da Honda, inspirada na MotoGP.',
     specs: {
@@ -477,7 +477,7 @@ export const bikes: Bike[] = [
     price: 'R$ 30.840,00',
     priceNumber: 30840,
     category: 'adventure',
-    image: './imgs/adventure/xr300ltornado/01.webp',
+    image: '/imgs/adventure/xr300ltornado/01.webp',
     description: 'Trail leve e versátil para qualquer terreno.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -494,10 +494,10 @@ export const bikes: Bike[] = [
     price: 'R$ 21.820,00',
     priceNumber: 21820,
     category: 'adventure',
-    image: './imgs/adventure/nxr160brosabs/01.webp',
+    image: '/imgs/adventure/nxr160brosabs/01.webp',
     colors: [
-      { name: 'Cinza', image: './imgs/adventure/nxr160brosabs/01.webp', colorCode: '#35373dff' },
-      { name: 'Vermelho', image: './imgs/adventure/nxr160brosabs/02.webp', colorCode: '#ff0000ff' },
+      { name: 'Cinza', image: '/imgs/adventure/nxr160brosabs/01.webp', colorCode: '#35373dff' },
+      { name: 'Vermelho', image: '/imgs/adventure/nxr160brosabs/02.webp', colorCode: '#ff0000ff' },
     ],
     description: 'A trail mais querida do Brasil, robusta e confiável.',
     specs: {
@@ -515,10 +515,10 @@ export const bikes: Bike[] = [
     price: 'R$ 20.900,00',
     priceNumber: 20900,
     category: 'adventure',
-    image: './imgs/adventure/nxr160broscbs/01.webp',
+    image: '/imgs/adventure/nxr160broscbs/01.webp',
     colors: [
-      { name: 'Preto', image: './imgs/adventure/nxr160broscbs/02.webp', colorCode: '#000000ff' },
-      { name: 'Vermelho', image: './imgs/adventure/nxr160broscbs/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Preto', image: '/imgs/adventure/nxr160broscbs/02.webp', colorCode: '#000000ff' },
+      { name: 'Vermelho', image: '/imgs/adventure/nxr160broscbs/01.webp', colorCode: '#ff0000ff' },
     ],
     description: 'A trail mais querida do Brasil, robusta e confiável.',
     specs: {
@@ -536,7 +536,7 @@ export const bikes: Bike[] = [
     price: 'R$ 31.290,00',
     priceNumber: 31290,
     category: 'adventure',
-    image: './imgs/adventure/sahara300adventure/01.webp',
+    image: '/imgs/adventure/sahara300adventure/01.webp',
     description: 'Adventure de média cilindrada com design moderno.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, SOHC',
@@ -553,7 +553,7 @@ export const bikes: Bike[] = [
     price: 'R$ 30.240,00',
     priceNumber: 30240,
     category: 'adventure',
-    image: './imgs/adventure/sahara300Rally/01.webp',
+    image: '/imgs/adventure/sahara300Rally/01.webp',
     description: 'Adventure de média cilindrada com design moderno.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, SOHC',
@@ -570,7 +570,7 @@ export const bikes: Bike[] = [
     price: 'R$ 29.580,00',
     priceNumber: 31290,
     category: 'adventure',
-    image: './imgs/adventure/sahara300standard/01.webp',
+    image: '/imgs/adventure/sahara300standard/01.webp',
     description: 'Adventure de média cilindrada com design moderno.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, SOHC',
@@ -587,7 +587,7 @@ export const bikes: Bike[] = [
     price: 'R$ 23.640,00',
     priceNumber: 23640,
     category: 'adventure',
-    image: './imgs/adventure/xre190adventure/01.webp',
+    image: '/imgs/adventure/xre190adventure/01.webp',
     description: 'Adventure de entrada com ótimo custo-benefício.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, OHV',
@@ -604,10 +604,10 @@ export const bikes: Bike[] = [
     price: 'R$ 23.640,00',
     priceNumber: 23120,
     category: 'adventure',
-    image: './imgs/adventure/xre190standard/01.webp',
+    image: '/imgs/adventure/xre190standard/01.webp',
     colors: [
-      { name: 'Azul', image: './imgs/adventure/xre190standard/02.webp', colorCode: '#213966ff' },
-      { name: 'Vermelho', image: './imgs/adventure/xre190standard/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Azul', image: '/imgs/adventure/xre190standard/02.webp', colorCode: '#213966ff' },
+      { name: 'Vermelho', image: '/imgs/adventure/xre190standard/01.webp', colorCode: '#ff0000ff' },
     ],
     description: 'Adventure de entrada com ótimo custo-benefício.',
     specs: {
@@ -625,11 +625,11 @@ export const bikes: Bike[] = [
     price: 'R$ 45.800,00',
     priceNumber: 45800,
     category: 'adventure',
-    image: './imgs/adventure/nx500/01.webp',
+    image: '/imgs/adventure/nx500/01.webp',
     colors: [
-      { name: 'Vermelho', image: './imgs/adventure/nx500/01.webp', colorCode: '#ff0000ff' },
-      { name: 'Branco', image: './imgs/adventure/nx500/02.webp', colorCode: '#ffffffff' },
-      { name: 'Preto', image: './imgs/adventure/nx500/03.webp', colorCode: '#000000ff' },
+      { name: 'Vermelho', image: '/imgs/adventure/nx500/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Branco', image: '/imgs/adventure/nx500/02.webp', colorCode: '#ffffffff' },
+      { name: 'Preto', image: '/imgs/adventure/nx500/03.webp', colorCode: '#000000ff' },
     ],
     description: 'Adventure de média cilindrada com tecnologia avançada.',
     specs: {
@@ -647,10 +647,10 @@ export const bikes: Bike[] = [
     price: 'R$ 53.730,00',
     priceNumber: 53730,
     category: 'adventure',
-    image: './imgs/adventure/nc750xmt/01.webp',
+    image: '/imgs/adventure/nc750xmt/01.webp',
     colors: [
-      { name: 'Vermelho', image: './imgs/adventure/nc750xmt/01.webp', colorCode: '#ff0000ff' },
-      { name: 'Prata', image: './imgs/adventure/nc750xmt/02.webp', colorCode: '#7e7e7eff' },
+      { name: 'Vermelho', image: '/imgs/adventure/nc750xmt/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Prata', image: '/imgs/adventure/nc750xmt/02.webp', colorCode: '#7e7e7eff' },
     ],
     description: 'Adventure touring com câmbio DCT e design único.',
     specs: {
@@ -668,10 +668,10 @@ export const bikes: Bike[] = [
     price: 'R$ 59.510,00',
     priceNumber: 59510,
     category: 'adventure',
-    image: './imgs/adventure/nc750xdct/02.webp',
+    image: '/imgs/adventure/nc750xdct/02.webp',
     colors: [
-      { name: 'Prata', image: './imgs/adventure/nc750xdct/02.webp', colorCode: '#7e7e7eff' },
-      { name: 'Vermelho', image: './imgs/adventure/nc750xdct/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Prata', image: '/imgs/adventure/nc750xdct/02.webp', colorCode: '#7e7e7eff' },
+      { name: 'Vermelho', image: '/imgs/adventure/nc750xdct/01.webp', colorCode: '#ff0000ff' },
     ],
     description: 'Adventure touring com câmbio DCT e design único.',
     specs: {
@@ -689,10 +689,10 @@ export const bikes: Bike[] = [
     price: 'R$ 81.100,00',
     priceNumber: 81100,
     category: 'adventure',
-    image: './imgs/adventure/crf1100lafricatwinmt/01.webp',
+    image: '/imgs/adventure/crf1100lafricatwinmt/01.webp',
     colors: [
-      { name: 'Azul', image: './imgs/adventure/crf1100lafricatwinmt/01.webp', colorCode: '#1766ddff' },
-      { name: 'Preto', image: './imgs/adventure/crf1100lafricatwinmt/02.webp', colorCode: '#000000ff' },
+      { name: 'Azul', image: '/imgs/adventure/crf1100lafricatwinmt/01.webp', colorCode: '#1766ddff' },
+      { name: 'Preto', image: '/imgs/adventure/crf1100lafricatwinmt/02.webp', colorCode: '#000000ff' },
     ],
     description: 'A lendária Africa Twin com tecnologia de ponta.',
     specs: {
@@ -710,10 +710,10 @@ export const bikes: Bike[] = [
     price: 'R$ 88.100,00',
     priceNumber: 88100,
     category: 'adventure',
-    image: './imgs/adventure/crf1100lafricatwindct/02.webp',
+    image: '/imgs/adventure/crf1100lafricatwindct/02.webp',
     colors: [
-      { name: 'Preto', image: './imgs/adventure/crf1100lafricatwindct/02.webp', colorCode: '#000000ff' },
-      { name: 'Azul', image: './imgs/adventure/crf1100lafricatwindct/01.webp', colorCode: '#1766ddff' },
+      { name: 'Preto', image: '/imgs/adventure/crf1100lafricatwindct/02.webp', colorCode: '#000000ff' },
+      { name: 'Azul', image: '/imgs/adventure/crf1100lafricatwindct/01.webp', colorCode: '#1766ddff' },
     ],
     description: 'A lendária Africa Twin com tecnologia de ponta.',
     specs: {
@@ -731,7 +731,7 @@ export const bikes: Bike[] = [
     price: 'R$ 102.130,00',
     priceNumber: 102130,
     category: 'adventure',
-    image: './imgs/adventure/crf1100lafricatwinadventuresportsmt/01.webp',
+    image: '/imgs/adventure/crf1100lafricatwinadventuresportsmt/01.webp',
     description: 'Versão Adventure Sports com suspensões eletrônicas.',
     specs: {
       motor: 'Bicilíndrico, 4 tempos, OHC',
@@ -748,7 +748,7 @@ export const bikes: Bike[] = [
     price: 'R$ 109.130,00',
     priceNumber: 109130,
     category: 'adventure',
-    image: './imgs/adventure/crf1100lafricatwinadventuresportsdct/01.webp',
+    image: '/imgs/adventure/crf1100lafricatwinadventuresportsdct/01.webp',
     description: 'Versão Adventure Sports com suspensões eletrônicas.',
     specs: {
       motor: 'Bicilíndrico, 4 tempos, OHC',
@@ -765,10 +765,10 @@ export const bikes: Bike[] = [
     price: 'R$ 24.534,00',
     priceNumber: 24534,
     category: 'adventure',
-    image: './imgs/adventure/hondaadv/01.webp',
+    image: '/imgs/adventure/hondaadv/01.webp',
     colors: [
-      { name: 'Vermelho', image: './imgs/adventure/hondaadv/01.webp', colorCode: '#ff0000ff' },
-      { name: 'Prata', image: './imgs/adventure/hondaadv/02.webp', colorCode: '#a3a8a8ff' },
+      { name: 'Vermelho', image: '/imgs/adventure/hondaadv/01.webp', colorCode: '#ff0000ff' },
+      { name: 'Prata', image: '/imgs/adventure/hondaadv/02.webp', colorCode: '#a3a8a8ff' },
     ],
     description: 'Scooter adventure com design robusto e versatilidade.',
     specs: {
@@ -786,10 +786,10 @@ export const bikes: Bike[] = [
     price: 'R$ 93.500,00',
     priceNumber: 93500,
     category: 'adventure',
-    image: './imgs/adventure/xadv/01.webp',
+    image: '/imgs/adventure/xadv/01.webp',
     colors: [
-      { name: 'Cinza', image: './imgs/adventure/xadv/01.webp', colorCode: '#505050ff' },
-      { name: 'Azul', image: './imgs/adventure/xadv/02.webp', colorCode: '#8babacff' },
+      { name: 'Cinza', image: '/imgs/adventure/xadv/01.webp', colorCode: '#505050ff' },
+      { name: 'Azul', image: '/imgs/adventure/xadv/02.webp', colorCode: '#8babacff' },
     ],
     description: 'O maxi-scooter adventure mais avançado da Honda.',
     specs: {
@@ -809,10 +809,10 @@ export const bikes: Bike[] = [
     price: 'R$ 304.450,00',
     priceNumber: 304450,
     category: 'touring',
-    image: './imgs/touring/gl1800goldwingtour/01.webp',
+    image: '/imgs/touring/gl1800goldwingtour/01.webp',
     colors: [
-      { name: 'Branco', image: './imgs/touring/gl1800goldwingtour/01.webp', colorCode: '#ffffffff' },
-      { name: 'Cinza', image: './imgs/touring/gl1800goldwingtour/02.webp', colorCode: '#494949ff' },
+      { name: 'Branco', image: '/imgs/touring/gl1800goldwingtour/01.webp', colorCode: '#ffffffff' },
+      { name: 'Cinza', image: '/imgs/touring/gl1800goldwingtour/02.webp', colorCode: '#494949ff' },
     ],
     description: 'A touring de luxo mais avançada do mundo.',
     specs: {
@@ -832,7 +832,7 @@ export const bikes: Bike[] = [
     price: 'R$ 23.390,00',
     priceNumber: 23390,
     category: 'offroad',
-    image: './imgs/offroad/crf250f/01.webp',
+    image: '/imgs/offroad/crf250f/01.webp',
     description: 'Off-road de entrada para trilhas e diversão.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -849,7 +849,7 @@ export const bikes: Bike[] = [
     price: 'R$ 71.163,00',
     priceNumber: 71163,
     category: 'offroad',
-    image: './imgs/offroad/linhacrf250r/01.webp',
+    image: '/imgs/offroad/linhacrf250r/01.webp',
     description: 'Off-road de competição com tecnologia de ponta.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -866,7 +866,7 @@ export const bikes: Bike[] = [
     price: 'R$ 73.998,00',
     priceNumber: 73998,
     category: 'offroad',
-    image: './imgs/offroad/linhacrf250rx/01.webp',
+    image: '/imgs/offroad/linhacrf250rx/01.webp',
     description: 'Off-road de competição com tecnologia de ponta.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -883,7 +883,7 @@ export const bikes: Bike[] = [
     price: 'R$ 74.878,00',
     priceNumber: 74878,
     category: 'offroad',
-    image: './imgs/offroad/linhacrf450r/01.webp',
+    image: '/imgs/offroad/linhacrf450r/01.webp',
     description: 'Off-road de alta performance para profissionais.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -900,7 +900,7 @@ export const bikes: Bike[] = [
     price: 'R$ 77.126,00',
     priceNumber: 77126,
     category: 'offroad',
-    image: './imgs/offroad/linhacrf450rx/01.webp',
+    image: '/imgs/offroad/linhacrf450rx/01.webp',
     description: 'Off-road de alta performance para profissionais.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, DOHC',
@@ -917,7 +917,7 @@ export const bikes: Bike[] = [
     price: 'R$ 53.550,00',
     priceNumber: 53550,
     category: 'offroad',
-    image: './imgs/offroad/trx420fourtrax/01.png',
+    image: '/imgs/offroad/trx420fourtrax/01.png',
     description: 'Quadriciclo 4x4 para trabalho e lazer.',
     specs: {
       motor: 'Monocilíndrico, 4 tempos, OHV',
