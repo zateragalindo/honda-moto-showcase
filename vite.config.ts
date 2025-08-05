@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react-swc'  // DEVE ter -swc
 import path from 'path'
 
 export default defineConfig({
@@ -18,5 +18,5 @@ export default defineConfig({
       }
     }
   },
-  base: './' // Para compatibilidade com Cloudflare Pages
+  base: './'
 })
